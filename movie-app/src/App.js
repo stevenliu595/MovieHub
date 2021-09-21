@@ -3,7 +3,6 @@ import MovieList from "./components/MovieList";
 import "./App.css";
 import PageHeading from "./components/PageHeading";
 import SearchBox from "./components/SearchBox";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   const [movies, setMovies] = useState([]);
